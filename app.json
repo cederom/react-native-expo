@@ -1,0 +1,41 @@
+{
+  "name": "com.cederom.expotest1",
+  "displayName": "expotest1",
+  "expo": {
+    "name": "expotest1",
+    "slug": "expotest1",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.1.0local",
+    "orientation": "portrait",
+    "plugins": [],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.cederom.expotest1",
+      "buildNumber": "0.1.0",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.cederom.expotest1",
+      "versionCode": 1
+    },
+    "extra": {
+      "api": {
+        "url": {
+          "local": "http://localhost:8000",
+          "devel": "https://devel.myhost.com",
+          "production": "https://myhost.com"
+        },
+        "rev": "v1"
+      }
+    }
+  }
+}
